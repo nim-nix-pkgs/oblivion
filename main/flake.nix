@@ -11,6 +11,7 @@
   inputs.src-oblivion-main.ref   = "refs/heads/main";
   inputs.src-oblivion-main.owner = "sealmove";
   inputs.src-oblivion-main.repo  = "oblivion";
+  inputs.src-oblivion-main.dir   = "";
   inputs.src-oblivion-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
